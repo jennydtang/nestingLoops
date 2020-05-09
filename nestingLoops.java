@@ -10,13 +10,16 @@ public class nestingLoops {
         System.out.println("\n");
 
         // this is #2 - I'll call it "AB"
-        /*
-         * for (int a = 1; a <= 3; a++) { for (int b = 1; b <= 3; b++) {
-         * System.out.print(a + "-" + b + " "); } // You will add a line of code here.
-         * System.out.println(); }
-         * 
-         * System.out.println("\n");
-         */
+
+        for (int a = 1; a <= 3; a++) {
+            for (int b = 1; b <= 3; b++) {
+                System.out.print(a + "-" + b + " ");
+            }
+            // You will add a line of code here.
+            System.out.println();
+        }
+
+        System.out.println("\n");
 
     }
 }
